@@ -1,12 +1,25 @@
-# React + Vite
+# Campaign Management App – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Demo:** [https://campaign-management-app-production.up.railway.app](https://campaign-management-app-production.up.railway.app)
 
-Currently, two official plugins are available:
+This is the frontend of the Campaign Management App, built with **React 18**, **Vite**, and **React Router**. It allows sellers to manage their products and campaigns via a clean, simple UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Backend repository:** [ArthurAndCode/campaign-management](https://github.com/ArthurAndCode/campaign-management)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Product creation, update, delete, and listing
+- Campaign creation, update, delete, and filtering
+- Live emerald funds display for the logged-in (mocked) user
+- Dynamic town selection (dropdown) and keyword typeahead
+- Integration with backend API hosted at:
+  `https://campaign-management-production.up.railway.app/api/v1`
+
+> User data is mocked by the backend at `/owners`, and loaded globally via React Router loader.
+
+## Tech Stack
+
+- React + Vite
+- React Router (with nested routes and data loaders)
+- Axios for HTTP communication
+- Docker support for production deployment
