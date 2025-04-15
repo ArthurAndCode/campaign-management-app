@@ -12,8 +12,7 @@ This is the frontend of the Campaign Management App, built with **React 18**, **
 - Campaign creation, update, delete, and filtering
 - Live emerald funds display for the logged-in (mocked) user
 - Dynamic town selection (dropdown) and keyword typeahead
-- Integration with backend API hosted at:
-  `https://campaign-management-production.up.railway.app/api/v1`
+- Integration with backend API
 
 > User data is mocked by the backend at `/owners`, and loaded globally via React Router loader.
 
