@@ -25,3 +25,10 @@ This is the frontend of the Campaign Management App, built with **React 18**, **
 - React Router (with nested routes and data loaders)
 - Axios for HTTP communication
 - Docker support for production deployment
+
+![image](https://github.com/user-attachments/assets/88aaf061-341c-40c2-89f4-85172b6f2408)
+
+![image](https://github.com/user-attachments/assets/9d7237ba-a73a-41a8-a35f-8fc736e6a983)
+
+![image](https://github.com/user-attachments/assets/c4c7b3da-150f-44e6-94eb-b2208a9886f1)
+
