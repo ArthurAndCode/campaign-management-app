@@ -30,12 +30,15 @@ export default function ProductItem({ product, ownerId, onActionComplete, setErr
                 </button>
             </fetcher.Form>
 
-            <fetcher.Form method="post" className="flex justify-center">
+            <fetcher.Form method="post" className="flex flex-col gap-3">
                 <input type="hidden" name="id" value={product.id} />
                 <input type="hidden" name="ownerId" value={ownerId} />
                 <input type="hidden" name="_method" value="DELETE" />
-                <button className="text-red-500 hover:underline">Delete</button>
+                <button className="bg-red-600 text-white px-3 py-1 rounded hover:bg-red-700 hover:underline">
+                    Delete
+                </button>
             </fetcher.Form>
+
         </div>
     );
 }
