@@ -1,5 +1,8 @@
 # Campaign Management App – Frontend
 
+**Note:** This repository contains a project developed as part of a coding challenge/assignment.  
+The task was to implement the core functionality within a strict 2-day deadline.
+
 **Live Demo:** [https://campaign-management-app-production.up.railway.app](https://campaign-management-app-production.up.railway.app)
 
 This is the frontend of the Campaign Management App, built with **React 18**, **Vite**, and **React Router**. It allows sellers to manage their products and campaigns via a clean, simple UI.
