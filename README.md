@@ -4,7 +4,7 @@
 
 This is the frontend of the Campaign Management App, built with **React 18**, **Vite**, and **React Router**. It allows sellers to manage their products and campaigns via a clean, simple UI.
 
-**Backend repository:** [ArthurAndCode/campaign-management](https://github.com/ArthurAndCode/campaign-management)
+**Backend repository:** [ArthurAndCode/campaign-management-backend](https://github.com/ArthurAndCode/campaign-management-backend)
 
 ## Features
 
