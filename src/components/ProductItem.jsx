@@ -34,11 +34,8 @@ export default function ProductItem({ product, ownerId, onActionComplete, setErr
                 <input type="hidden" name="id" value={product.id} />
                 <input type="hidden" name="ownerId" value={ownerId} />
                 <input type="hidden" name="_method" value="DELETE" />
-                <button className="bg-red-600 text-white px-3 py-1 rounded hover:bg-red-700 hover:underline">
-                    Delete
-                </button>
+                <button className="text-red-500 hover:underline">Delete</button>
             </fetcher.Form>
-
         </div>
     );
 }
